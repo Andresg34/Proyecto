@@ -2,6 +2,88 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: Beau;
+    src: url("Fuentes/BeauRivage-Regular.ttf");
+}
+@font-face {
+    font-family: Serif-Italic;
+    src: url("Fuentes/PTSerif-Italic.ttf");
+}
+@font-face {
+    font-family: Serif-Bold;
+    src: url("Fuentes/PTSerif-Bold.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("Fuentes/Roboto-Italic.ttf");
+}
+
+/* CSS GENERAL: */
+body {
+    background-image: url("Imagenes/fondo1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid black;
+}
+.header-container {
+    background-color: greenyellow;
+    font-family: Serif-Italic;
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.menu-container {
+    margin: 10px;
+    padding: 5px;
+}
+
+.Noticias-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+}
+
+.footer-container {
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.conocenos-container {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.futbol-container {
+    display: block;
+    align-items: column;
+}
+
+.noticia1 {
+    background-color: white;
+    border: 2px solid black;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.noticia2 {
+    background-color: white;
+    border: 2px solid black;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+/* Css de ambos formularios */
 .speaker-form-header {
     text-align: center;
     background-color: black;

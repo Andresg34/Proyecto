@@ -12,13 +12,13 @@
     <title>Diario Sur / Deportes </title>
 </head>
 <body>
-    <header>
+    <header class="header-container">
         <h1 data-aos="fade-right"
         data-aos-offset="100"
         data-aos-easing="ease-in-sine">Info-Sur</h1>
     </header>
     <!-- Menu navegable de bootstrap-->
-    <section>
+    <section class="menu-container">
         <nav class="navbar navbar-light bg-light" >
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -46,7 +46,7 @@
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                         <li><a class="dropdown-item" href="Futbol.html">Futboll</a></li>
-                        <li><a class="dropdown-item" href="#">Basquet</a></li>
+                        <li><a class="dropdown-item" href="Basquet.html">Basquet</a></li>
                         <li>
                           <hr class="dropdown-divider">
                         </li>
@@ -104,7 +104,10 @@
     </section>
         <!-- Aca terminaria mi carrousel-->
 
-        <section>
+        <section class="Noticias-container">
+          <h3 data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine">Noticias:</h3>
             <div class="card-group">
                 <div class="card">
                   <img src="Imagenes/playoff.jpg" class="card-img-top" alt="Arrancan los Playoff">
@@ -115,6 +118,7 @@
                         A partir del 2 de Junio se podran ver los partidos que demostraran despues de un largo camino quien es coronado el nuevo campeon de la NBA 
                     </p>
                     <a href="#playoff-1">Leer Mas</a>
+                    <!-- Por el momento no funciona el Leer mas por que no cree el basquet.html -->
                     <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
                   </div>
                 </div>
@@ -132,7 +136,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Liverpool derrota al City en Fa Cup</h5>
                     <p class="card-text">El Liverpool le gana el duelo de semi-finales de la Fa cup al Manchester City 3 a 2 en donde hubo de todo.</p>
-                    <a href="#facup">Leer Mas</a>
+                    <a href="Futbol.html#facup">Leer Mas</a>
                     <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
                   </div>
                 </div>
@@ -141,9 +145,7 @@
 
         <!-- Empieza mi footer -->
     
-     <footer data-aos="fade-right"
-     data-aos-offset="100"
-     data-aos-easing="ease-in-sine">
+     <footer class="footer-container">
         <address>
                 <a href="https://www.instagram.com/ostinn96/">Instagram</a>
                 <a href="https://www.facebook.com/Andres.LjZrD">Facebook</a>
