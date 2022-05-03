@@ -1,0 +1,214 @@
+@font-face {
+  font-family: Beau;
+  src: url("Fuentes/BeauRivage-Regular.ttf");
+}
+
+@font-face {
+  font-family: Serif-Italic;
+  src: url("Fuentes/PTSerif-Italic.ttf");
+}
+
+@font-face {
+  font-family: Serif-Bold;
+  src: url("Fuentes/PTSerif-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("Fuentes/Roboto-Italic.ttf");
+}
+
+body {
+  background-image: url("../../Imagenes/fondo1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header h1 {
+  background-color: greenyellow;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 25px;
+  text-align: center;
+  font-family: Serif-Italic;
+}
+
+/* Css de ambos formularios */
+.speaker-form-header {
+  text-align: center;
+  background-color: black;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 80%;
+  margin: 40px 0;
+  padding: 50px;
+}
+
+.speaker-form-header h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.speaker-form {
+  background-color: #f6f7f8;
+  border: 1px solid  #d6d9dc;
+  border-radius: 3px;
+  width: 80%;
+  margin: 0 0 40px 0;
+  padding: 50px;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+}
+
+.form-row textarea {
+  font-size: 14px;
+  border: 1px solid goldenrod;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 7px;
+  min-height: 200px;
+  min-width: 100%;
+  resize: none;
+}
+
+.form-row .instructions {
+  color: #999;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f6f7f8;
+  background-color: #5995da;
+  border-radius: 3px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: #76aeed;
+}
+
+.form-row button:active {
+  background-color: #407fc7;
+}
+
+.menu-container {
+  margin: 10px;
+  padding: 5px;
+}
+
+.Noticias-container {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  color: black;
+}
+
+.conocenos-container {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.futbol-container {
+  display: block;
+  -webkit-box-align: column;
+      -ms-flex-align: column;
+          align-items: column;
+}
+
+.noticia1 {
+  background-color: white;
+  border: 2px solid black;
+  margin: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+.noticia2 {
+  background-color: white;
+  border: 2px solid black;
+  margin: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+.footer-container {
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+.seccion1, .seccion2 {
+  border: 1px solid black;
+  padding: 5px 5px;
+}
+
+.seccion1 {
+  background-color: white;
+}
+
+.seccion2 {
+  background-color: gray;
+}
+
+footer h6 {
+  font-size: 20px;
+}
+
+.footing {
+  background-color: gray;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.repair {
+  color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
